@@ -1,4 +1,7 @@
 # Profil Mahasiswa
+<img src="https://github.com/user-attachments/assets/2c15c66c-0316-49d6-9d7e-63f699f7832a" width="250" alt="Screen 1">
+<img src="https://github.com/user-attachments/assets/ff78b4cd-3ebe-4491-9dc9-70c7a13b6605" width="250" alt="Screen 2">
+
 
 ## Deskripsi
 
@@ -15,19 +18,10 @@ Project ini dibuat sebagai salah satu tugas mata kuliah **Pemrograman Mobile** m
 
 ---
 
-## Teknologi
 
-- Kotlin
-- Android Studio
-- Material 3
-- Jetpack Compose
 
----
+**Nama** : M.Yana Mabruri
 
-## Identitas
-
-**Nama** : NAUFAL DZAKI NIARDI
-
-**NIM** : 23083000159
+**NIM** : 23083000128
 
 **Mata Kuliah** : Pemrograman Mobile
