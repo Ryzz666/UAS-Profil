@@ -1,4 +1,4 @@
-package com.naufal.profilemahasiswa.screens
+package com.rury.profilemahasiswa.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,9 +14,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.naufal.profilemahasiswa.MataKuliah
-import com.naufal.profilemahasiswa.ProfileViewModel
-import com.naufal.profilemahasiswa.components.AcademicStatsCard
+import com.rury.profilemahasiswa.MataKuliah
+import com.rury.profilemahasiswa.ProfileViewModel
+import com.rury.profilemahasiswa.components.AcademicStatsCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

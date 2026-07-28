@@ -1,4 +1,4 @@
-package com.naufal.profilemahasiswa
+package com.rury.profilemahasiswa
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,10 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.*
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.naufal.profilemahasiswa.screens.DataNilaiScreen
-import com.naufal.profilemahasiswa.screens.ProfileEditScreen
-import com.naufal.profilemahasiswa.screens.ProfileScreen
-import com.naufal.profilemahasiswa.ui.theme.ProfilMahasiswaTheme
+import com.rury.profilemahasiswa.screens.DataNilaiScreen
+import com.rury.profilemahasiswa.screens.ProfileEditScreen
+import com.rury.profilemahasiswa.screens.ProfileScreen
+import com.rury.profilemahasiswa.ui.theme.ProfilMahasiswaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

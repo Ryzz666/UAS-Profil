@@ -1,4 +1,4 @@
-package com.naufal.profilemahasiswa.components
+package com.rury.profilemahasiswa.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

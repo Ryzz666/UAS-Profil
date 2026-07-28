@@ -1,4 +1,4 @@
-package com.naufal.profilemahasiswa.ui.theme
+package com.rury.profilemahasiswa.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

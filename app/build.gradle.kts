@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.naufal.profilemahasiswa"
+    namespace = "com.rury.profilemahasiswa"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.naufal.profilemahasiswa"
+        applicationId = "com.rury.profilemahasiswa"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

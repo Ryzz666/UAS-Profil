@@ -1,4 +1,4 @@
-package com.naufal.profilemahasiswa
+package com.rury.profilemahasiswa
 
 import android.net.Uri
 import androidx.compose.runtime.getValue
@@ -15,34 +15,34 @@ data class MataKuliah(
 )
 
 class ProfileViewModel : ViewModel() {
-    var name by mutableStateOf("NAUFAL DZAKI NIARDI")
-    var nim by mutableStateOf("23083000159")
-    var bio by mutableStateOf("A dedicated Information Systems student passionate about technology and software development.")
+    var name by mutableStateOf("M.Yana Mabruri")
+    var nim by mutableStateOf("23083000128")
+    var bio by mutableStateOf("Information Systems student exploring the world of mobile app development and data analysis.")
     var major by mutableStateOf("Sistem Informasi")
-    var email by mutableStateOf("23083000159@student.unmer.ac.id")
-    var phone by mutableStateOf("081234567890")
-    var address by mutableStateOf("Malang, Jawa Timur")
+    var email by mutableStateOf("rury@student.unmer.ac.id")
+    var phone by mutableStateOf("089876543210")
+    var address by mutableStateOf("Malang, Indonesia")
     var profileImageUri by mutableStateOf<Uri?>(null)
 
     val hobbies = listOf(
-        "Programming",
-        "UI/UX Design",
-        "Gaming",
-        "Exploring New Tech"
+        "Mobile Development",
+        "Photography",
+        "Music",
+        "Travel"
     )
 
     // Academic Data
-    val ipk = "3.75"
-    val totalSks = "120"
+    val ipk = "3.80"
+    val totalSks = "124"
     val semesterAktif = "6"
 
     val daftarNilai = listOf(
-        MataKuliah("IF301", "Pemrograman Mobile", 3, 92, "A"),
-        MataKuliah("IF302", "Basis Data", 3, 88, "A"),
-        MataKuliah("IF303", "Pemrograman Web", 3, 90, "A"),
-        MataKuliah("IF304", "Sistem Operasi", 3, 85, "A-"),
-        MataKuliah("IF305", "Jaringan Komputer", 3, 87, "A"),
-        MataKuliah("IF306", "Rekayasa Perangkat Lunak", 3, 91, "A")
+        MataKuliah("IF301", "Pemrograman Mobile", 3, 95, "A"),
+        MataKuliah("IF302", "Basis Data", 3, 90, "A"),
+        MataKuliah("IF303", "Pemrograman Web", 3, 92, "A"),
+        MataKuliah("IF304", "Sistem Operasi", 3, 88, "A"),
+        MataKuliah("IF305", "Jaringan Komputer", 3, 89, "A"),
+        MataKuliah("IF306", "Rekayasa Perangkat Lunak", 3, 93, "A")
     )
 
     fun updateProfile(
